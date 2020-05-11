@@ -7,6 +7,10 @@
     border-radius: 4px 4px;
 }
 
+#habilidades {
+    background-image: url(/images/cursos.jpg);
+}
+
 #whatsapp {
     color: rgb(184, 184, 184);
     position: fixed;
