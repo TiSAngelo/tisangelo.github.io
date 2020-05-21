@@ -1,5 +1,50 @@
-#mainMenu {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
     opacity: 0.87;
+    z-index: 1;
+    width: 100vw;
+}
+
+body {
+    font-size: 1.2em;
+}
+
+header {
+    background-image: url(./header.png);
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    background-position: 35% 50%;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: rgb(44, 44, 44);
+    margin-left: 0.5em;
+}
+
+.title h2 {
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 0.5em;
+}
+
+.selected {
+    background-color: #25857b;
+    color: whitesmoke;
+    padding: 0.1em;
+    border-radius: 2px;
 }
 
 #formacao {
