@@ -5,13 +5,25 @@
 }
 
 .navbar {
-    opacity: 0.87;
     z-index: 1;
     width: 100vw;
 }
 
+.navbar.bg-info {
+    background-color: rgb(49, 83, 121)!important;
+}
+
 body {
     font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    padding: 0 1em;
+}
+
+h6 {
+    font-weight: 400;
 }
 
 header {
@@ -25,71 +37,92 @@ header {
     align-items: center;
 }
 
-.title h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
+.title h1,
+.title h2 {
+    font-size: 1.7em;
     color: rgb(44, 44, 44);
     margin-left: 0.5em;
 }
 
 .title h2 {
-    font-family: 'Raleway', sans-serif;
-    color: gray;
-    font-size: 2em;
+    color: rgb(134, 134, 134);
     font-weight: 300;
-    margin-left: 0.5em;
 }
 
 .selected {
-    background-color: #25857b;
+    background-color: rgb(175, 161, 33);
     color: whitesmoke;
     padding: 0.1em;
     border-radius: 2px;
 }
 
-#formacao {
-    background-image: url("./images/formacao.jpg");
-    border-radius: 4px 4px;
+.about {
+    color: whitesmoke;
+    background-color: rgb(80, 110, 145);
+    padding-bottom: .05em;
 }
 
-#habilidades {
+.about-title {
+    margin-bottom: 1em;
+}
+
+.alma {
+    color: white;
+    transition: 0.2s;
+}
+
+.alma:active,
+.alma:hover {
+    background-color: rgb(175, 160, 30);
+    color: whitesmoke;
+    border-radius: 2px;
+}
+
+.interests {
+    background-color: whitesmoke;
+    color: rgb(80, 110, 145);
+}
+
+.interests h1 {
+    color: rgb(175, 160, 30);
+}
+
+.interests h6 {
+    color: rgb(175, 160, 30);
+}
+
+.interests p {
+    text-align: justify;
+}
+
+.interests img {
+    opacity: 0.6;
+}
+
+.education {
+    color: rgb(49, 83, 121);
+    background-color: rgb(179, 175, 139);
+}
+
+.education h4 {
+    color: rgb(49, 83, 121);
+}
+
+.experience {}
+
+.skills {
     background-image: url(/images/cursos.jpg);
 }
 
-#whatsapp {
-    color: rgb(184, 184, 184);
-    position: fixed;
-    top: 88%;
-    right: 1%;
-    padding: 10px;
-    z-index: 10000000;
-}
+.certificates {}
 
-#email {
-    color: rgb(184, 184, 184);
-    position: fixed;
-    top: 82%;
-    right: 1%;
-    padding: 10px;
-    z-index: 10000000;
-}
+.jobs {}
 
-#github {
-    color: rgb(184, 184, 184);
-    position: fixed;
-    top: 76%;
-    right: 1%;
-    padding: 10px;
-    z-index: 10000000;
-}
-
-#linkedin {
-    color: rgb(184, 184, 184);
-    position: fixed;
-    top: 70%;
-    right: 1%;
-    padding: 10px;
-    z-index: 10000000
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    color: rgb(44, 44, 44);
 }
 
 
