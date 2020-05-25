@@ -5,8 +5,7 @@
 }
 
 .navbar {
-    z-index: 1;
-    width: 100vw;
+    z-index: 10000;
 }
 
 .navbar.bg-info {
@@ -34,24 +33,24 @@ header {
     margin-top: 2em;
     background-position: 35% 50%;
     width: 100vw;
-    height: auto;
+    height: 70vh;
 }
 
 .title-title {
     width: 100vw;
-    height: 38vh;
+    height: 57vh;
     display: flex;
     align-items: flex-end;
 }
 
 .title {
-    margin-bottom: 1.5em;
-    width: 72vw;
+    margin-bottom: 3em;
+    width: 80vw;
 }
 
 .title h1,
 .title h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: rgb(44, 44, 44);
     margin-left: 0.6em;
 }
@@ -139,7 +138,7 @@ header {
 .experience {}
 
 .skills {
-    background-image: url(/images/cursos.jpg);
+    background-color: pink;
 }
 
 .certificates {}
