@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     overflow-x: hidden;
+    witdh: 100%
 }
 
 .navbar {
@@ -50,7 +52,7 @@ header {
 }
 
 .title {
-    margin-bottom: 3em;
+    margin-bottom: 4em;
     width: 80vw;
 }
 
@@ -76,9 +78,9 @@ header {
 }
 
 .contact a {
-    font-size: 1em;
+    font-size: 0.8em;
     color: rgb(49, 83, 121);
-    padding-left: 0.6em;
+    padding: 0 0.4em;
 }
 
 .selected {
@@ -89,13 +91,15 @@ header {
 }
 
 .about,
-.experience {
+.experience,
+.jobs {
     color: whitesmoke;
     background-color: rgb(80, 110, 145);
     padding-bottom: .05em;
 }
 
-.about-title {
+.about-title,
+.jobs-title {
     margin-bottom: 1em;
     padding-left: 1em;
 }
@@ -143,16 +147,24 @@ header {
 
 .interests img {
     opacity: 0.6;
+    padding: 1.3em;
+    height: 5.5em;
+    width: auto;
+    border-radius: 50%;
+    border: dotted;
 }
 
-.education {
+.education,
+.certificates {
     color: rgb(49, 83, 121);
     background-color: rgb(179, 175, 139);
 }
 
 .education i {
-    font-size: 2.5em;
-    ;
+    font-size: 2.2em;
+    padding: 0.6em 0.5em;
+    border: solid;
+    border-radius: 50%;
 }
 
 .prog,
@@ -177,12 +189,20 @@ header {
 
 .experience h2 {
     padding-left: 1.3em;
-    ;
 }
 
 .experience h3 {
     margin-bottom: 1em;
     padding-left: 1.5em;
+}
+
+.experience p {
+    padding: 1em 0 0 0;
+}
+
+.experience h4 {
+    margin-bottom: 2em;
+    padding-left: 1.7em;
 }
 
 .subtitle-subtitle span {
@@ -202,7 +222,8 @@ header {
 }
 
 .xp-list {
-    padding: 0 2em 0 2em;
+    padding: 0 1em;
+    list-style: none;
 }
 
 .gallup {
@@ -211,7 +232,45 @@ header {
     transition: 0.2s;
 }
 
-.certificates {}
+.certificates .col {
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    border-radius: 6px 6px 0 0;
+    background-color: rgb(179, 175, 139);
+}
+
+.card-body {
+    background-color: rgb(80, 110, 145)!important;
+    color: whitesmoke;
+    font-weight: bold;
+    height: 160px;
+    border-radius: 0 0 6px 6px;
+}
+
+.card-subtitle {
+    color: whitesmoke!important;
+}
+
+.card button {
+    color: rgb(179, 175, 139)!important;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.card button:active,
+.card button:hover {
+    color: whitesmoke!important;
+    background-color: rgb(175, 160, 30);
+}
+
+.card img {
+    width: 286px;
+    height: 201px;
+    object-fit: fill;
+}
 
 .jobs {}
 
