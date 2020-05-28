@@ -107,8 +107,7 @@ header {
     padding-bottom: .05em;
 }
 
-.about-title,
-.jobs-title {
+.about-title {
     margin-bottom: 1em;
     padding-left: 0.6em;
 }
@@ -123,6 +122,20 @@ header {
 .certificates {
     color: rgb(49, 83, 121);
     background-color: rgb(179, 175, 139);
+}
+
+
+/*SOBRE*/
+
+.tiago {
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+.about img {
+    border-radius: 50%;
+    height: 180px;
+    width: auto;
 }
 
 
@@ -231,7 +244,7 @@ header {
 
 .experience li {
     margin-bottom: 1em;
-    border-bottom: solid rgb(49, 83, 121);
+    border-bottom: solid thin rgb(49, 83, 121);
 }
 
 .gallup {
@@ -377,8 +390,20 @@ header {
     object-fit: fill;
 }
 
+
+/*PORTFOLIO*/
+
+.jobs {
+    background-color: rgb(49, 83, 121);
+}
+
 .jobs h1 {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.job-description h5 {
+    padding-left: 1.5em;
 }
 
 .job-item {
@@ -386,10 +411,9 @@ header {
 }
 
 .jobs img {
-    border: dashed 3px rgb(179, 175, 139);
     border-radius: 50%;
     margin: auto;
-    height: 100px;
+    height: 195px;
     width: auto;
     object-fit: cover;
     display: flex;
@@ -398,24 +422,21 @@ header {
 
 .job-description p {
     display: flex;
-    font-size: 0.5em;
+    font-size: 0.7em;
     align-items: center;
-    text-align: right;
-    padding-bottom: 0;
-    padding-right: 3em;
+    text-align: left;
+    padding: 0 2.2em;
 }
+
+
+/*FOOTER*/
 
 footer {
     text-align: center;
     color: rgb(179, 175, 139);
-    background-color: rgb(80, 110, 145);
+    background-color: rgb(49, 83, 121);
     padding: 0.5em;
     font-size: 0.6em;
-}
-
-.job-description h5 {
-    padding-left: 0.2em;
-    border-bottom: solid rgb(49, 83, 121);
 }
 
 
