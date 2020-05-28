@@ -43,12 +43,12 @@ header {
     margin-top: 2em;
     background-position: 35% 50%;
     width: 100vw;
-    height: 86vh;
+    height: 80vh;
 }
 
 .title-title {
     width: 100vw;
-    height: 64vh;
+    height: 60vh;
     display: flex;
     align-items: flex-end;
 }
@@ -402,8 +402,8 @@ header {
     text-align: center;
 }
 
-.job-description h5 {
-    padding-left: 1.5em;
+.job-description h3 {
+    text-align: center;
 }
 
 .job-item {
@@ -422,10 +422,9 @@ header {
 
 .job-description p {
     display: flex;
-    font-size: 0.7em;
-    align-items: center;
-    text-align: left;
-    padding: 0 2.2em;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
 
