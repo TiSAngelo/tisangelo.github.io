@@ -323,6 +323,10 @@ header {
     justify-content: center;
 }
 
+.certificates {
+    padding-bottom: 2em;
+}
+
 .card {
     border: none;
     border-radius: 6px 6px 0 0;
