@@ -17,8 +17,8 @@
     <!--MENU DE NAVEGAÇÃO-->
     <nav id="mainMenu" class="navbar navbar-expand-lg navbar-dark fixed-top bg-info">
         <div class="navbar-brand mb-0 h3">
-            <h6>Tiago Angelo / dev. frontend
-            </h6>
+            <!--<h6>Tiago Angelo / dev. frontend
+            </h6>-->
 
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
         <section class="title-title">
             <div class="title">
                 <h1 class="site-title">Tiago dos Santos Angelo</h1>
-                <h2 class="site-subtitle"><span class="selected">Currículo</span>online</h2>
+                <h2 class="site-subtitle"><span class="selected">Currículo</span><strong>online</strong></h2>
             </div>
         </section>
         <div class="contact">
@@ -88,22 +88,24 @@
     <div data-spy="scroll" data-target="#about" data-offset="0">
 
         <div class="about">
-            <h1 class="about-title display-5 text-left pt-5" id="about">Olá Mundo!</h1>
+            <h1 class="about-title display-5 text-center pt-5" id="about">Olá Mundo!</h1>
+            <figure class="tiago"><img src="/images/tiago.jpg"></figure>
             <div class="row mb-5">
                 <div class="col">
-                    <figure class="tiago"><img src="/images/tiago.jpg"></figure>
+
                     <p class="text-justify">
 
                         Muito prazer, meu nome é Tiago, sou acadêmico de Análise e Desenvolvimento de Sistemas, casado e pai da Mariana.</p>
 
-                    <p class="text-justify">Sou um gaúcho de 36 anos, natural de Porto Alegre, com experiência como Personal Trainer e gestão de academias de musculação desde 2008.</p>
+                    <p class="text-justify">Tenho de 36 anos e sou natural de Porto Alegre - RS, possuo experiência com treinamento individualizado (Personal Training) e gestão de academias de musculação desde 2008.</p>
 
-                    <p class="text-justify">Como um quase técnico em Publicidade e Propaganda também trabalhei como artista para a marca <a class="alma" href="https://almaboards.com.br/" target="blank"><strong>Alma Boards</strong></a>, sendo autor dos desenhos dos shapes "Teutônia"
-                        e "Caos".</p>
+                    <p class="text-justify">Ex-aluno da Escola Técnica Irmão Pedro, onde cursei o Técnico em Publicidade e Propaganda, também tive a oportunidade de atuar como artista para a marca <a class="alma" href="https://almaboards.com.br/" target="blank"><strong>Alma Boards</strong></a>,
+                        sendo criador dos desenhos dos shapes "Teutônia" e "Caos".</p>
                 </div>
                 <div class="col">
 
-                    <p class="text-justify"> Este site de apresentação pessoal foi desenhado para ser uma versão de currículo interativa e uma ferramenta de acesso ao meu portfólio.</p>
+                    <p class="text-justify"> Este site foi desenvolvido com o objetivo de realizar minha apresentação pessoal e profissional, se tornando uma versão online do meu currículo e uma ferramenta de acesso ao meu portfólio.</p>
+                    <p>Se você está vendo este material e se interessou pelo meu trabalho, basta acessar um dos contatos disponíveis na capa do site, será um prazer podermos conversar!</p>
 
 
                 </div>
@@ -122,10 +124,12 @@
         <div data-spy="scroll" data-target="#interesses" data-offset="0">
             <div class="interests text-center" id="interesses">
                 <h1 class="interests-title display-5 mb-5 pt-5" id="interests">Interesses</h1>
-                <p>Estou sempre pronto para encarar qualquer desafio, mesmo que, para isso seja preciso aprender algo diferente e novo, de maneira imersiva e rapidamente.</p>
-                <p>Tenho a percepção de que nenhum esforço é o bastante quando o objetivo é agregar o máximo de valor a cada entrega.</p>
-                <p>Apesar de novo na área, já consigo demonstrar interesse em me desenvolver, colaborar e atuar em projetos e equipes que estejam vinculados a:
-                </p>
+                <section class="interests-txt">
+                    <p>Estou sempre pronto para encarar qualquer desafio, mesmo que, para isso seja preciso aprender algo diferente e novo, de maneira imersiva e rapidamente.</p>
+                    <p>Tenho a percepção de que nenhum esforço é o bastante quando o objetivo é agregar o máximo de valor a cada entrega.</p>
+                    <p>Apesar de novo na área, já consigo demonstrar interesse em me desenvolver, colaborar e atuar em projetos e equipes que estejam vinculados a:
+                    </p>
+                </section>
 
                 <div class="interests-line row mt-5">
                     <div class="col-sm mb-5">
@@ -141,7 +145,7 @@
                         <img src="images/inovation.png" class="img-fluid mb-3">
                         <h6 class="mb-5">Inovação, UI/UX Design</h6>
                         <img src="images/frontend.png" class="img-fluid mb-3">
-                        <h6>Desenvolvimento Front-end</h6>
+                        <h6>Desenvolvimento Web</h6>
 
                     </div>
                 </div>
@@ -176,26 +180,34 @@
             <div class="experience text-justify pb-4" id="experiencia">
                 <h1 class="experience-title display-5 mb-5 pt-5 " id="experience">Experiência Profissional</h1>
 
-                <h2 class="experience-subtitle">
+                <h2 class="subtitle-subtitle"><span>Líder</span> de Unidade</h2>
+                <h3 class="experience-subtitle">
                     <a class="smartfit" href="https://www.smartfit.com.br/" target="_blank"> <strong>Smart Fit</strong></a>
-
-                </h2>
+                </h3>
                 <h4>02/2011 - 06/2015</h4>
-                <h3 class="subtitle-subtitle"><span>Líder</span> de Unidade</h3>
+
+
                 <ul class="xp-list">
-                    <li class="money"><strong>Gestão Financeira</strong>
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <li class="col money"><strong>Gestão Financeira</strong>
                         <p>Desenvolvimento e acompanhamento de budget, admnistrando variáveis e obtendo o atingimento de metas.</p>
                     </li>
+
+                    <i class="fas fa-tasks"></i>
                     <li class="projects"><strong>Gestão de Projetos</strong>
-                        <p>Levantamento de Requisitos, planejamento, execução, monitoramento e controle e encerramento.</p>
+                        <p>Elicitação, planejamento, execução, monitoramento e controle e encerramento.</p>
                     </li>
+
+                    <i class="fas fa-people-arrows"></i>
                     <li class="people"><strong>Gestão Pessoas</strong>
                         <p>Seleção, treinamento, gestão por talentos (metodologia <a class="gallup" href="https://www.gallup.com/home.aspx" target="=" _blank>Gallup&reg;</a>) engajamento de equipe através de participação em projetos, delgação de tarefas,
                             devolutiva de resultados, reuniões de retrospectivas abordando lições aprendidas e compartilhamento de melhores práticas, acompanhando métricas quantitativas e qualitativas de produtividade.</p>
                     </li>
+
+                    <i class="fas fa-chart-bar"></i>
                     <li class="process"><strong>Gestão de Processos</strong>
                         <p>Controle de manutenção, insumos, terceirizados e procedimentos técnicos, envolvendo tarefas distintas da função de cada colaborador, sempre visando a melhor experiência para o cliente e o melhor resultado para a empresa.</p>
-                    </li>
+                        <li>
                 </ul>
             </div>
         </div>
