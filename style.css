@@ -22,7 +22,7 @@ body {
 body {
     max-width: 100vw;
     font-size: 1.2em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 p {
@@ -599,6 +599,19 @@ header {
     justify-content: center;
 }
 
+@media (min-width: 606px) {
+    .certificates .row {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 606px) {
+    .certificates .col {
+        max-width: 40%;
+        padding: 0!important;
+    }
+}
+
 .certificates {
     padding-bottom: 2em;
 }
@@ -707,6 +720,19 @@ header {
     margin-bottom: 2em;
 }
 
+@media (min-width: 606px) {
+    .jobs .row {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 606px) {
+    .jobs .col {
+        max-width: 40%;
+        padding: 0;
+    }
+}
+
 
 /*FOOTER*/
 
@@ -717,9 +743,3 @@ footer {
     padding: 0.5em;
     font-size: 0.6em;
 }
-
-
-/*#cursos {
-    background-image: url(images/cursos.jpg);
-    border-radius: 4px 4px;
-}*/
