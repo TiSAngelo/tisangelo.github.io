@@ -37,11 +37,10 @@ h6 {
 /*HEADER*/
 
 header {
-    /*background-image: url(./header.png);
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-position: 35% 50%;*/
-    /*background-color: rgb(49, 83, 121);*/
+    background-image: url(./images/success_.svg);
+    background-size: 9em;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
     margin-top: 2em;
     background-color: rgb(49, 83, 121);
     width: 100vw;
@@ -51,15 +50,41 @@ header {
 @media(min-width: 568px) {
     header {
         height: 100vh;
+        background-size: 12em;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        background-position: 85% 20%;
+    }
+}
+
+@media(height: 823px) {
+    header {
+        background-size: 12em;
+        background-position: 50% 20%;
+        height: 80vh;
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
     }
 }
 
-@media(min-height: 823px) {
+@media(min-height: 824px) {
     header {
+        background-size: 16em;
+        background-position: 90% 15%;
         height: 50vh;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+}
+
+@media(min-width: 1024px) {
+    header {
+        background-size: 23em;
+        background-position: 80% 50%;
+        height: 90vh;
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
@@ -81,7 +106,7 @@ header {
 }
 
 .title {
-    margin-bottom: 4em;
+    margin-bottom: 1em;
     width: 80vw;
     margin-left: 2em;
 }
@@ -90,13 +115,15 @@ header {
     .title {
         width: 45vw;
         margin-bottom: 0;
-        margin-left: 0em;
+        margin-left: 0;
     }
 }
 
 @media(min-height: 823px) {
     .title {
+        margin-bottom: 1em;
         width: 80vw;
+        margin-left: 0;
     }
 }
 
@@ -147,15 +174,22 @@ header {
     }
 }
 
-@media(min-height: 823px) {
+@media(height: 823px) {
     .contact {
-        padding: 0 0 0 2.5em;
+        padding: 17.5em 0 0 2.5em;
+        flex-direction: column;
+    }
+}
+
+@media(min-height: 824px) {
+    .contact {
+        padding: 2em 0 2.5em 2em;
+        flex-direction: column;
     }
 }
 
 .contact a {
     font-size: 0.8em;
-    /*color: rgb(49, 83, 121);*/
     color: rgb(202, 202, 202);
     padding: 0 0.4em;
 }
