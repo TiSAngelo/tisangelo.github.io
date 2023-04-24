@@ -37,7 +37,7 @@ h6 {
 /*HEADER*/
 
 header {
-    background-image: url(./images/success_.svg);
+    background-image: url(./images/undraw_developer.svg);
     background-size: 9em;
     background-repeat: no-repeat;
     background-position: 50% 10%;
@@ -508,6 +508,15 @@ header {
 
 
 /*HABILIDADES*/
+
+.grid-icons {
+    width: 65vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
 
 .skills-items {
     height: 64vh;
